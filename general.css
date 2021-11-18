@@ -52,7 +52,7 @@
     display: block;
     font-size: 2rem;
     font-weight: 500;
-    color: #ff1010;
+    color: #fe9102;
     text-transform: uppercase;
     /* margin-bottom: 1.6rem; */
     letter-spacing: 0.75px;
@@ -69,12 +69,12 @@
 }
 .btn--full:link,
 .btn--full:visited {
-    background-color: #ce0c0c;
+    background-color: #e08104;
     color: #fff;
 }
 .btn--full:hover,
 .btn--full:active {
-    background-color: #ff1010;
+    background-color: #fe9102;
     color: #fff;
 }
 .btn--outline:link,
@@ -90,14 +90,14 @@
 .link:link,
 .link:visited {
     display: inline-block;
-    color: #ff1010;
+    color: #fdce7e;
     text-decoration: none;
     border-bottom: 1px solid currentColor;
     padding-bottom: 1.9rem;
 }
 .link:hover,
 .link:active {
-    color: #ff1010;
+    color: #fdce7e;
     border-bottom: none;
 }
 .margin-right-sm {

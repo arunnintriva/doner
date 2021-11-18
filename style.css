@@ -29,12 +29,19 @@ body {
     height: 6.2rem;
     border-radius: 50%; */
     font-size: 5rem;
-    color: #fc0b0b;
+    color: #fdce7e;
 }
 
 /****************************/
 /*    NAVIGATION SECTION    */
 /****************************/
+.header {
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #fe9102;
+}
 .main-nav-list {
     display: flex;
     list-style: none;
@@ -51,7 +58,7 @@ body {
 .main-nav-link:hover,
 .main-nav-link:active {
     color: #0c0b0b;
-    border-bottom: 1px solid #ff1010;
+    border-bottom: 1px solid #fdce7e;
     /* box-shadow: inset 0 0 0 1px #ff1010;
     border-radius: 9px; */
     font-size: 2.3rem;
@@ -60,14 +67,14 @@ body {
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-    color: #f04545;
+    color: #fdce7e;
     padding: 1.2rem 3.2rem;
     /* border-radius: 9px; */
     /* color: #fff; */
 }
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-    color: #ff1010;
+    color: #ffdca0;
 }
 /****************************/
 /*       HERO SECTION       */
@@ -248,7 +255,7 @@ body {
 .meal-icon {
     height: 2.4rem;
     width: 2.4rem;
-    color: #ff1010;
+    color: #f79f09;
 }
 /****************************/
 /*    TESTIMONIAL SECTION   */
