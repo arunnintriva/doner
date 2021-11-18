@@ -15,14 +15,19 @@
 
 <body>
     <header class="header">
-        <img class="logo" src="images/logo/logo.jpg" alt="logo">
+        <!-- <img class="logo" src="images/logo/logo.jpg" alt="logo"> -->
+        <div class="logo">doner</div>
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">section 1</a></li>
-                <li><a class="main-nav-link" href="#">section 2</a></li>
-                <li><a class="main-nav-link" href="#">section 3</a></li>
-                <li><a class="main-nav-link" href="#">section 4</a></li>
-                <li><a class="main-nav-link nav-cta" href="#">section 5</a></li>
+                <li><a class="main-nav-link nav-cta" href="#">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </a></li>
+                <li><a class="main-nav-link nav-cta" href="#">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </a></li>
+                <li><a class="main-nav-link nav-cta" href="#">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </a></li>
             </ul>
         </nav>
     </header>
@@ -38,9 +43,9 @@
                         known chef in the city.
 
                     </p>
-                    <a href="#" class="btn btn--full margin-right-sm">Start eating</a>
+                    <a href="#" class="btn btn--full margin-right-sm margin-bottom-md">Start eating</a>
                     <a href="#" class="btn btn--outline margin-right-sm">Learn More &darr;</a>
-                    <div class="delivered-meals">
+                    <!-- <div class="delivered-meals">
                         <div class="deliverde-imgs">
                             <img src="images/customer/customer1.jpg" alt="a beautiful customer">
                             <img src="images/customer/customer2.jpg" alt="a beautiful customer">
@@ -50,10 +55,10 @@
                             <img src="images/customer/customer6.jpg" alt="a beautiful customer">
                         </div>
                         <p class="delivered-text"> <span>25,000+</span> food deliverede last year!</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="hero-img-box">
-                    <img src="images/hero/hero3.jpg" class="hero-img" alt="a woman">
+                    <!-- <img src="images/hero/hero5.jpg" class="hero-img" alt="a woman"> -->
                     <!-- <img src="images/hero1.jpg" class="hero-img" alt="a woman"> -->
                 </div>
             </div>
@@ -107,33 +112,200 @@
                 </div>
             </div>
         </section> -->
-        <section class="list grid grid--3-cols" style="background-image: url('images/wall3.jpg');">
-            <!-- <img src="images/wall.jpg"> -->
-            <div class="list--item">
-                <!-- <p class="step-number">01</p> -->
-                <div class="step-img-box">
-                    <img src="images/app/app-screen-8.png" class="step-img" alt="App screen image">
-                </div>
-                <p class="list--item-quote">Never again waste time thinking about what to eat!</p>
+        <section class="section-meals">
+            <div class="container center-text">
+                <span class="subheading">Meals</span>
+                <h2 class="heading-secondary">doner specials!</h2>
             </div>
-            <div class="list--item">
-                <!-- <p class="step-number">02</p> -->
-                <div class="step-img-box">
-                    <img src="images/app/app--screen-07.png" class="step-img" alt="App screen image">
+            <div class="container grid grid--4-cols margin-bottom-md">
+                <div class="meal">
+                    <img src="images/meals/meal1.jpg" class="meal-img" alt="picture of a meal">
+                    <div class="meal-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegan ">Vegan</span>
+                            <span class="tag tag--paleo ">Paleo</span>
+                        </div>
+                        <p class="meal-title">MIXED FRIED RICE</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span>650 </strong> Calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <span>NutriScore &reg; <strong>74</strong></span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong> 4.9 </strong>(564)</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <p class="list--item-quote"> Omnifood AIwill create a
-                    100% personalized meal plan just for you.</p>
+                <div class="meal">
+                    <img src="images/meals/meal2.jpg" class="meal-img" alt="picture of a meal">
+                    <div class="meal-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegitarian">Vegetarian</span>
+                        </div>
+                        <p class="meal-title">PAN CAKE</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span>850 </strong> Calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <span>NutriScore &reg; <strong>87</strong></span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong> 4.3 </strong>(564)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="meal">
+                    <img src="images/meals/meal3.jpg" class="meal-img" alt="picture of a meal">
+                    <div class="meal-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegitarian">Vegetarian</span>
+                        </div>
+                        <p class="meal-title">POTATO MIX</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span>850 </strong> Calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <span>NutriScore &reg; <strong>87</strong></span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong> 4.3 </strong>(564)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="meal">
+                    <img src="images/meals/meals-lite/juice7.jpg" class="meal-img" alt="picture of a meal">
+                    <div class="meal-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegitarian">Vegetarian</span>
+                        </div>
+                        <p class="meal-title">JUICES</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span>850 </strong> Calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <span>NutriScore &reg; <strong>87</strong></span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong> 4.3 </strong>(564)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="list--item">
-                <!-- <p class="step-number">03</p> -->
-                <div class="step-img-box">
-                    <img src="images/app/app--screen-6.png" class="step-img" alt="App screen image">
+            <div class="container all-recipes">
+                <a href="#" class="link">See all items &rarr;</a>
+            </div>
+        </section>
+        <section class="section-testimonials grid grid--2-cols">
+            <div class="testimonials-container">
+                <span class="subheading">Testimonials</span>
+                <h2 class="heading-secondary">Once you try it you can't go back!</h2>
+                <div class="testimonials">
+                    <figure class="testimonial">
+                        <img src="images/customer/customer1.jpg" class="testimonial-img" alt="customer testimonial">
+                        <blockquote class="testimonial-text">Inexpensive, healthy and great-tasting meals,
+                            without even having to order manually! It feels magical.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; AVANTHIKA</p>
+                    </figure>
+                    <figure class="testimonial">
+                        <img src="images/customer/customer2.jpg" class="testimonial-img" alt="customer testimonial">
+                        <blockquote class="testimonial-text">Inexpensive, healthy and great-tasting meals,
+                            without even having to order manually! It feels magical.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; RAJAMATHA</p>
+                    </figure>
+                    <figure class="testimonial">
+                        <img src="images/customer/customer3.jpg" class="testimonial-img" alt="customer testimonial">
+                        <blockquote class="testimonial-text">3Inexpensive, healthy and great-tasting meals,
+                            without even having to order manually! It feels magical.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; PALVAL DEV</p>
+                    </figure>
+                    <figure class="testimonial">
+                        <img src="images/customer/customer4.jpg" class="testimonial-img" alt="customer testimonial">
+                        <blockquote class="testimonial-text">Inexpensive, healthy and great-tasting meals,
+                            without even having to order manually! It feels magical.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; BAHU AND DEVASENA</p>
+                    </figure>
                 </div>
-                <p class="list--item-quote">Never again waste time thinking about what to eat! Omnifood AIwill create a
-                    100%</p>
+            </div>
+            <div class="gallary">
+                <figure class="gallary-item">
+                    <img src="images/customer/customer1.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallary-item">
+                    <img src="images/customer/customer2.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallary-item">
+                    <img src="images/meals/meals-lite/juice6.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallary-item">
+                    <img src="images/meals/meals-lite/juice3.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallary-item">
+                    <img src="images/meals/meals-lite/juice2.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallary-item">
+                    <img src="images/meals/meals-lite/juice4.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallary-item">
+                    <img src="images/meals/meal2.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallary-item">
+                    <img src="images/meals/meal1.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallary-item">
+                    <img src="images/meals/meals-lite/meal1.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallary-item">
+                    <img src="images/meals/meals-lite/meal2.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallary-item">
+                    <img src="images/meals/meals-lite/meal3.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallary-item">
+                    <img src="images/meals/meals-lite/meal4.jpg" class="gallary-img" alt="food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
             </div>
         </section>
     </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>

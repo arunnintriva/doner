@@ -25,10 +25,13 @@ body {
     padding: 0 4.2rem;
 }
 .logo {
-    width: 6.4rem;
+    /* width: 6.4rem;
     height: 6.2rem;
-    border-radius: 50%;
+    border-radius: 50%; */
+    font-size: 5rem;
+    color: #fc0b0b;
 }
+
 /****************************/
 /*    NAVIGATION SECTION    */
 /****************************/
@@ -47,31 +50,38 @@ body {
 }
 .main-nav-link:hover,
 .main-nav-link:active {
-    color: #ff1010;
+    color: #0c0b0b;
+    border-bottom: 1px solid #ff1010;
+    /* box-shadow: inset 0 0 0 1px #ff1010;
+    border-radius: 9px; */
+    font-size: 2.3rem;
+    font-weight: 500;
 }
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-    background-color: #f04545;
-    padding: 1.2rem 2.4rem;
-    border-radius: 9px;
-    color: #fff;
+    color: #f04545;
+    padding: 1.2rem 3.2rem;
+    /* border-radius: 9px; */
+    /* color: #fff; */
 }
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-    background-color: #ff1010;
+    color: #ff1010;
 }
 /****************************/
 /*       HERO SECTION       */
 /****************************/
 .section-hero {
-    background-color: #fff9f5;
-    padding: 4.8rem 0 9.6rem 0;
+    background-color: #1f0f05;
+    padding: 7.8rem 0 9.6rem 0;
+    background-image: url(images/hero/hero5.jpg);
+    height: 95rem;
 }
 .hero {
     max-width: 160rem;
     margin: 0 auto;
-    padding: 0 3.2rem;
+    padding: 20.8rem 3.2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -125,6 +135,7 @@ body {
 
 .step-img {
     width: 50%;
+    height: 50%;
 }
 .step-description {
     font-size: 2rem;
@@ -165,4 +176,121 @@ body {
     font-weight: 600;
     color: #ddd;
     margin-bottom: 1.2rem;
+}
+/****************************/
+/*      MEALS SECTION       */
+/****************************/
+.section-meals {
+    padding: 9.6rem 0;
+}
+.meal {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.meal:hover {
+    transform: translateY(-2rem);
+}
+.meal-content {
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+.all-recipes {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 3.2rem;
+}
+.meal-tags {
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+.tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #333;
+    border-radius: 100px;
+}
+.tag--vegitarian {
+    background-color: #40c057;
+}
+.tag--vegan {
+    background-color: #a9e34b;
+}
+.tag--paleo {
+    background-color: #12b886;
+}
+.tag--non-veg {
+    background-color: #e03131;
+}
+.meal-img {
+    width: 100%;
+}
+.meal-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 3.2rem;
+}
+.meal-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.meal-attribute {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.meal-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #ff1010;
+}
+/****************************/
+/*    TESTIMONIAL SECTION   */
+/****************************/
+.section-testimonials {
+    background-color: #fdf2e9;
+}
+.testimonials-container {
+    padding: 9.6rem;
+}
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4.8rem;
+    column-gap: 8rem;
+    padding: 9.6rem;
+}
+.testimonial-img {
+    width: 70px;
+    height: 65px;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+.testimonial-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 1.6rem;
+}
+.testimonial-name {
+    font-size: 1.6rem;
+    color: #777;
+}
+.gallary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+}
+.gallary-item img {
+    display: block;
+}
+.gallary-img {
+    width: 100%;
+    /* height: 50%; */
 }
