@@ -90,3 +90,14 @@
 .margin-right-sm {
     margin-right: 1.6rem !important;
 }
+.list {
+    padding: 10rem;
+}
+.list--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list--item-quote {
+    font-size: 1.8rem;
+}
