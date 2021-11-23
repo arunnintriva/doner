@@ -143,6 +143,7 @@
                     </div>
                 </div>
                 <div class="meal">
+
                     <img src="images/meals/meal2.jpg" class="meal-img" alt="picture of a meal">
                     <div class="meal-content">
                         <div class="meal-tags">
@@ -426,7 +427,22 @@
     </main>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        var myIndex = 0;
+        carousel();
 
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2500);
+        }
+    </script>
 </body>
 
 </html>

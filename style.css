@@ -90,6 +90,13 @@ body {
     padding: 7.8rem 0 9.6rem 0;
     background-image: url(images/meals/meal111.jpg);
     height: 100rem;
+    background-position: top left;
+    animation: mymove 8s infinite;
+}
+@keyframes mymove {
+    50% {
+        background-position: center;
+    }
 }
 .hero {
     max-width: 160rem;
@@ -374,4 +381,8 @@ body {
 .footer-container {
     width: 100%;
     height: auto;
+}
+
+.mySlides {
+    display: none;
 }
