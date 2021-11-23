@@ -29,7 +29,7 @@ body {
     height: 6.2rem;
     border-radius: 50%; */
     font-size: 3rem;
-    color: rgb(29, 66, 72);
+    color: rgb(245, 246, 247);
 }
 .logo:active,
 .logo:hover {
@@ -45,7 +45,7 @@ body {
     top: 0;
     position: fixed; */
     width: 100%;
-    background-color: #e5eaec;
+    background-color: #1d232b;
     height: 4rem;
 }
 .main-nav-list {
@@ -73,10 +73,10 @@ body {
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-    color: rgb(29, 66, 72);
+    /* color: rgb(252, 252, 252); */
     padding: 1.2rem 3.2rem;
     /* border-radius: 9px; */
-    /* color: #fff; */
+    color: #fff;
 }
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
@@ -88,13 +88,13 @@ body {
 .section-hero {
     background-color: #1f0f05;
     padding: 7.8rem 0 9.6rem 0;
-    background-image: url(images/meals/meal6.jpg);
+    background-image: url(images/meals/meal111.jpg);
     height: 100rem;
 }
 .hero {
     max-width: 160rem;
     margin: 0 auto;
-    padding: 20.8rem 3.2rem;
+    padding: 25.8rem 3.2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -200,15 +200,18 @@ body {
 /****************************/
 .section-meals {
     padding: 9.6rem 0;
+    background-color: #272a2d;
 }
 .meal {
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
     border-radius: 11px;
     overflow: hidden;
     transition: all 0.3s;
+    background-color: #fff;
 }
 .meal:hover {
     transform: translateY(-2rem);
+    box-shadow: 0 2.4rem 4.8rem #5f5e5e;
 }
 .meal-content {
     padding: 3.2rem 4.8rem 4.8rem 4.8rem;
@@ -313,24 +316,25 @@ body {
     /* height: 50%; */
 }
 .services {
-    background-image: url("images/meals/meals-lite/juice7.jpg");
-    margin: 2.6rem;
+    /* background-image: url("images/meals/wall4.jpg"); */
+    /* margin: 2.6rem; */
     padding: 10rem;
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 9.8rem;
+    gap: 9.8rem; */
+    background-color: #e5eaec;
 }
 .service-container {
-    background-color: #e5eaec;
     display: flex;
     align-items: center;
     flex-direction: column;
     border-radius: 2rem;
     margin: 1.6rem;
-    width: 100%;
+    max-width: 80%;
     padding: 1.2rem;
     overflow: hidden;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    background-color: #fff;
 }
 .service-icon {
     font-size: 2.8rem;
@@ -339,7 +343,8 @@ body {
 }
 .service-icon:hover,
 .service-icon:active {
-    color: #44f850;
+    /* color: #44f850; */
+    color: #f79f09;
 }
 .service-img {
     width: 100%;
@@ -361,3 +366,12 @@ body {
 .service-img :active .service-container {
     box-shadow: none;
 } */
+.footer {
+    max-width: 150rem;
+    padding: 1.8rem;
+    margin: 1.8rem;
+}
+.footer-container {
+    width: 100%;
+    height: auto;
+}
