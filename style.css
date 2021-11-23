@@ -91,7 +91,7 @@ body {
     background-image: url(images/meals/meal111.jpg);
     height: 100rem;
     background-position: top left;
-    animation: mymove 8s infinite;
+    animation: mymove 9s infinite;
 }
 @keyframes mymove {
     50% {
@@ -366,8 +366,8 @@ body {
 .service-img :active {
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
     /* transform: rotate(360deg); */
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    /* -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); */
 }
 /* .service-img:hover,
 .service-img :active .service-container {
