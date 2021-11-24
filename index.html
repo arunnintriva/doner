@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="responsive.css">
 
 </head>
 
@@ -30,6 +31,10 @@
                     </a></li>
             </ul>
         </nav>
+        <!-- <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="list-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button> -->
     </header>
     <main>
         <section class="section-hero">
@@ -43,8 +48,10 @@
                         known chef in the city.
 
                     </p>
-                    <a href="#" class="btn btn--full margin-right-sm margin-bottom-md">Start eating</a>
-                    <a href="#" class="btn btn--outline margin-right-sm">Learn More &darr;</a>
+                    <div class="buttons">
+                        <a href="#" class="btn btn--full margin-right-sm ">Start eating</a>
+                        <a href="#" class="btn btn--outline margin-right-sm">Learn More &darr;</a>
+                    </div>
                     <!-- <div class="delivered-meals">
                         <div class="deliverde-imgs">
                             <img src="images/customer/customer1.jpg" alt="a beautiful customer">
@@ -117,29 +124,32 @@
                 <span class="subheading">Meals</span>
                 <h2 class="heading-secondary">doner specials!</h2>
             </div>
-            <div class="container grid grid--4-cols margin-bottom-md">
+            <div class="section-meal-sub-container container grid margin-bottom-md">
                 <div class="meal">
                     <img src="images/meals/meal1.jpg" class="meal-img" alt="picture of a meal">
                     <div class="meal-content">
                         <div class="meal-tags">
                             <span class="tag tag--vegan ">Vegan</span>
                             <span class="tag tag--paleo ">Paleo</span>
+                            <ion-icon class="cart" name="cart-outline"></ion-icon>
                         </div>
                         <p class="meal-title">MIXED FRIED RICE</p>
                         <ul class="meal-attributes">
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="flame"></ion-icon>
                                 <span>650 </strong> Calories</span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="restaurant"></ion-icon>
                                 <span>NutriScore &reg; <strong>74</strong></span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="star"></ion-icon>
                                 <span><strong> 4.9 </strong>(564)</span>
                             </li>
                         </ul>
+                        <div class="oder">Oder Now!</div>
+
                     </div>
                 </div>
                 <div class="meal">
@@ -148,22 +158,24 @@
                     <div class="meal-content">
                         <div class="meal-tags">
                             <span class="tag tag--vegitarian">Vegetarian</span>
+                            <ion-icon class="cart" name="cart-outline"></ion-icon>
                         </div>
                         <p class="meal-title">PAN CAKE</p>
                         <ul class="meal-attributes">
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="flame"></ion-icon>
                                 <span>850 </strong> Calories</span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="restaurant"></ion-icon>
                                 <span>NutriScore &reg; <strong>87</strong></span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="star"></ion-icon>
                                 <span><strong> 4.3 </strong>(564)</span>
                             </li>
                         </ul>
+                        <div class="oder">Oder Now!</div>
                     </div>
                 </div>
                 <div class="meal">
@@ -171,22 +183,24 @@
                     <div class="meal-content">
                         <div class="meal-tags">
                             <span class="tag tag--vegitarian">Vegetarian</span>
+                            <ion-icon class="cart" name="cart-outline"></ion-icon>
                         </div>
                         <p class="meal-title">POTATO MIX</p>
                         <ul class="meal-attributes">
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="flame"></ion-icon>
                                 <span>850 </strong> Calories</span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="restaurant"></ion-icon>
                                 <span>NutriScore &reg; <strong>87</strong></span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="star"></ion-icon>
                                 <span><strong> 4.3 </strong>(564)</span>
                             </li>
                         </ul>
+                        <div class="oder">Oder Now!</div>
                     </div>
                 </div>
                 <div class="meal">
@@ -194,48 +208,52 @@
                     <div class="meal-content">
                         <div class="meal-tags">
                             <span class="tag tag--vegitarian">Vegetarian</span>
+                            <ion-icon class="cart" name="cart-outline"></ion-icon>
                         </div>
                         <p class="meal-title">JUICES</p>
                         <ul class="meal-attributes">
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="flame"></ion-icon>
                                 <span>850 </strong> Calories</span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="restaurant"></ion-icon>
                                 <span>NutriScore &reg; <strong>87</strong></span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="star"></ion-icon>
                                 <span><strong> 4.3 </strong>(564)</span>
                             </li>
                         </ul>
+                        <div class="oder">Oder Now!</div>
                     </div>
                 </div>
-            </div>
-            <div class="container grid grid--4-cols margin-bottom-md">
+                <!-- </div>
+            <div class="section-meal-sub-container container grid margin-bottom-md"> -->
                 <div class="meal">
                     <img src="images/meals/meal1.jpg" class="meal-img" alt="picture of a meal">
                     <div class="meal-content">
                         <div class="meal-tags">
                             <span class="tag tag--vegan ">Vegan</span>
                             <span class="tag tag--paleo ">Paleo</span>
+                            <ion-icon class="cart" name="cart-outline"></ion-icon>
                         </div>
                         <p class="meal-title">MIXED FRIED RICE</p>
                         <ul class="meal-attributes">
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="flame"></ion-icon>
                                 <span>650 </strong> Calories</span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="restaurant"></ion-icon>
                                 <span>NutriScore &reg; <strong>74</strong></span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="star"></ion-icon>
                                 <span><strong> 4.9 </strong>(564)</span>
                             </li>
                         </ul>
+                        <div class="oder">Oder Now!</div>
                     </div>
                 </div>
                 <div class="meal">
@@ -243,22 +261,24 @@
                     <div class="meal-content">
                         <div class="meal-tags">
                             <span class="tag tag--vegitarian">Vegetarian</span>
+                            <ion-icon class="cart" name="cart-outline"></ion-icon>
                         </div>
                         <p class="meal-title">PAN CAKE</p>
                         <ul class="meal-attributes">
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="flame"></ion-icon>
                                 <span>850 </strong> Calories</span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="restaurant"></ion-icon>
                                 <span>NutriScore &reg; <strong>87</strong></span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="star"></ion-icon>
                                 <span><strong> 4.3 </strong>(564)</span>
                             </li>
                         </ul>
+                        <div class="oder">Oder Now!</div>
                     </div>
                 </div>
                 <div class="meal">
@@ -266,22 +286,24 @@
                     <div class="meal-content">
                         <div class="meal-tags">
                             <span class="tag tag--vegitarian">Vegetarian</span>
+                            <ion-icon class="cart" name="cart-outline"></ion-icon>
                         </div>
                         <p class="meal-title">POTATO MIX</p>
                         <ul class="meal-attributes">
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="flame"></ion-icon>
                                 <span>850 </strong> Calories</span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="restaurant"></ion-icon>
                                 <span>NutriScore &reg; <strong>87</strong></span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="star"></ion-icon>
                                 <span><strong> 4.3 </strong>(564)</span>
                             </li>
                         </ul>
+                        <div class="oder">Oder Now!</div>
                     </div>
                 </div>
                 <div class="meal">
@@ -289,22 +311,24 @@
                     <div class="meal-content">
                         <div class="meal-tags">
                             <span class="tag tag--vegitarian">Vegetarian</span>
+                            <ion-icon class="cart" name="cart-outline"></ion-icon>
                         </div>
                         <p class="meal-title">JUICES</p>
                         <ul class="meal-attributes">
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="flame"></ion-icon>
                                 <span>850 </strong> Calories</span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="restaurant"></ion-icon>
                                 <span>NutriScore &reg; <strong>87</strong></span>
                             </li>
                             <li class="meal-attribute">
-                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <ion-icon class="meal-icon" name="star"></ion-icon>
                                 <span><strong> 4.3 </strong>(564)</span>
                             </li>
                         </ul>
+                        <div class="oder">Oder Now!</div>
                     </div>
                 </div>
             </div>
@@ -403,7 +427,7 @@
             <div class="container center-text">
                 <span class="subheading">Our Services</span>
             </div>
-            <div class="section-container grid grid--3-cols">
+            <div class="section-container grid--3-cols">
                 <div class="service-container">
                     <img src="images/services/natural2.jpg" class="service-img" alt="picture of a meal">
                     <ion-icon name="ribbon-outline" class="service-icon"></ion-icon>
@@ -421,9 +445,9 @@
                 </div>
             </div>
         </section>
-        <section class=" footer">
+        <!-- <section class=" footer">
             <div class="footer-container "></div>
-        </section>
+        </section> -->
     </main>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
