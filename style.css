@@ -25,9 +25,6 @@ body {
     padding: 0 4.2rem;
 }
 .logo {
-    /* width: 6.4rem;
-    height: 6.2rem;
-    border-radius: 50%; */
     font-size: 3rem;
     color: rgb(245, 246, 247);
 }
@@ -160,7 +157,6 @@ body {
 /****************************/
 .section-how {
     padding: 9.6rem 0;
-    /* background-color: orangered; */
 }
 
 .step-img {
@@ -181,7 +177,6 @@ body {
 .step-img-box::after {
     content: "";
     display: block;
-    /* height: 50%; */
     position: absolute;
     top: 50%;
     left: 47%;
@@ -319,12 +314,10 @@ body {
 .cart:active,
 .cart:hover {
     background-color: #f79f09;
-    /* box-shadow: inset 0 0 0 1px rgb(0, 0, 0); */
 }
 .oder:active,
 .oder:hover {
     color: #fff;
-    /* box-shadow: 0 2.4rem 4.8rem #b1b0b0; */
 }
 /****************************/
 /*    TESTIMONIAL SECTION   */
@@ -368,7 +361,6 @@ body {
 }
 .gallary-img {
     width: 100%;
-    /* height: 50%; */
 }
 .section-container {
     display: grid;
@@ -394,11 +386,9 @@ body {
 .service-icon {
     font-size: 2.8rem;
     transform: 1s ease;
-    /* padding: 1.8rem; */
 }
 .service-icon:hover,
 .service-icon:active {
-    /* color: #44f850; */
     color: #f79f09;
 }
 .service-img {
@@ -413,14 +403,7 @@ body {
 .service-img:hover,
 .service-img :active {
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-    /* transform: rotate(360deg); */
-    /* -webkit-transform: scaleX(-1);
-    transform: scaleX(-1); */
 }
-/* .service-img:hover,
-.service-img :active .service-container {
-    box-shadow: none;
-} */
 .footer {
     max-width: 150rem;
     padding: 1.8rem;

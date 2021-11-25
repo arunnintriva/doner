@@ -6,7 +6,6 @@
     max-width: 150rem;
     padding: 0 3.2rem;
     margin: 0 auto;
-    /* background-color: #fdf2e9; */
 }
 .grid {
     display: grid;
@@ -54,12 +53,10 @@
     font-weight: 500;
     color: #fe9102;
     text-transform: uppercase;
-    /* margin-bottom: 1.6rem; */
     letter-spacing: 0.75px;
 }
 .buttons {
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 .btn:link,
